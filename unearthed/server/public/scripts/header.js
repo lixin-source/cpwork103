@@ -7,7 +7,7 @@ const headerLeft = document.createElement('div')
 headerLeft.className = 'header-left'
 
 const headerLogo = document.createElement('img')
-headerLogo.src = '../logo.png'
+headerLogo.src = '/logo.png'
 
 const headerTitle = document.createElement('h1')
 headerTitle.textContent = 'UnEarthed'
@@ -15,15 +15,15 @@ headerTitle.textContent = 'UnEarthed'
 headerLeft.appendChild(headerLogo)
 headerLeft.appendChild(headerTitle)
 
-const headerRight = document.createElement('div')
-headerRight.className = 'header-right'
-
 const headerButton = document.createElement('Home')
 headerButton.textContent = 'Home'
     
-headerButton.addEventListener('click', function handleClick(event) {
+headerButton.addEventListener('click', (event) => {
   window.location = '/'
 })
+
+const headerRight = document.createElement('div')
+headerRight.className = 'header-right'
 
 headerRight.appendChild(headerButton)
 
