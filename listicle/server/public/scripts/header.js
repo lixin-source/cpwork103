@@ -15,12 +15,20 @@ headerTitle.textContent = 'The Strawhat Crew'
 headerLeft.appendChild(headerLogo)
 headerLeft.appendChild(headerTitle)
 
-const headerButton = document.createElement('Home')
-headerButton.textContent = 'View All Members'
-    
+const headerButton = document.createElement('button');
+headerButton.textContent = 'View All Members';
+
+// Add the "btn" and "btn-primary" classes
+headerButton.classList.add('btn', 'btn-primary');
+
 headerButton.addEventListener('click', (event) => {
-  window.location = '/'
-})
+  window.location = '/';
+});
+
+// Append the button to your document or a specific container
+// For example:
+document.body.appendChild(headerButton);
+
 
 const headerRight = document.createElement('div')
 headerRight.className = 'header-right'

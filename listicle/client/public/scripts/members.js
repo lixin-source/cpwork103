@@ -23,12 +23,6 @@ const renderMembers = async () => {
             name.textContent = member.name
             bottomContainer.appendChild(name)
   
-            // "name": "Monkey D. Luffy",
-            // "position": "Captain",
-            // "image": "https://pa1.narvii.com/7372/2dd7195f1a84dc2ec24ad0b4b04e4d80a3e1830cr1-500-281_hq.gif",
-            // "bounty": "320,000,000 Berries",
-            // "description":
-  
             const position = document.createElement('p')
             position.textContent = 'Position: ' + member.position
             bottomContainer.appendChild(position)
