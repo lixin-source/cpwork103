@@ -10,7 +10,7 @@ const headerLogo = document.createElement('img')
 headerLogo.src = '/header.png'
 
 const headerTitle = document.createElement('h4')
-headerTitle.textContent = 'The Strawhat Crew'
+headerTitle.textContent = 'The Straw Hat Crew'
 
 headerLeft.appendChild(headerLogo)
 headerLeft.appendChild(headerTitle)
