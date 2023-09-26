@@ -37,9 +37,6 @@ The following **additional** features are implemented:
     - *Added transition color for button*
 
 ## Video Walkthrough
-
-**Note: please be sure to 
-
 Here's a walkthrough of implemented required features:
 
 **Project 2**
