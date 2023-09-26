@@ -1,15 +1,16 @@
-# WEB103 Project 1 - *Listicle*
+# WEB103 Project 1/2 - *Listicle*
 
 Submitted by: **Xin Yi Li**
 
 About this web app: **List-based web app that displays the Strawhat Crew from One Piece, an anime and manga series created by Oda Eiichiro in 1997. This lists all the crewmates as of Sept 2023.**
 
-Time spent: **5** hours
+Time spent: **6** hours
 
 ## Required Features
 
 The following **required** functionality is completed:
 
+**Project 1**
 <!-- Make sure to check off completed functionality below -->
 - [✅] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
 - [✅] **The web app displays a title**
@@ -19,6 +20,12 @@ The following **required** functionality is completed:
 - [✅] **The web app serves an appropriate 404 page when no matching route is defined**
 - [✅] **The web app is appropriately styled using Picocss**
     - *On the view all button*
+
+**Project 2**
+- [✅] The web app uses only HTML, CSS, and JavaScript without a frontend framework.
+- [✅] The web app is connected to a PostgreSQL database.
+- [✅] The PostgreSQL database includes a table that matches the data displayed in the web app.
+
 
 The following **optional** features are implemented:
 
@@ -35,6 +42,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
+**Project 2**
+<img src='proj2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+**Project 1**
 <img src='proj1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with LiceCAP Add GIF tool here

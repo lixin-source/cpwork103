@@ -1,4 +1,5 @@
 import express from 'express'
+import './config/dotenv.js'
 import onePieceRouter from "./routes/data.js"
 
 const app = express()
